@@ -32,9 +32,6 @@ function App() {
           countries.map( country => <Country country={country} key={country.alpha3Code} handleAddCountry={handleAddCountry}></Country>)
         }
       </ul>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
     </div>
   );
 }
